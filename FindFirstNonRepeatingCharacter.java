@@ -45,7 +45,7 @@ public class FindFirstNonRepeatingCharacter
 	public static void main(String[] args) 
 	{
 		
-		// 1 Way 
+		// 1 Ways 
 		String input = "Java articles are Awesome Java  are";
 		
 	    Character result = input.chars().peek(System.out::println).mapToObj(c->(char)c)
